@@ -1,0 +1,4 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/codacy-demo-sandbox/frontend', './frontend']
+images: ['gcr.io/codacy-demo-sandbox/frontend']
